@@ -1,0 +1,8 @@
+<div class="container">
+  <ax-control class="ax-control" title="Title">
+    <input type="text" [(ngModel)]="model" required noOne dateValidator/>
+    <validation when="noOne">Required number 1 is not contained</validation>
+    <validation when="dateValidator">Incorrect Date: enter in DD/MM/YYYY format</validation>
+    <validation when="required">Required</validation>
+  </ax-control>
+</div>

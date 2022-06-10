@@ -1,0 +1,26 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center
+}
+.ax-control {
+    width: 20%;
+    margin-top: 15px;
+}
+.ng-valid {
+    border: 2px solid green;
+}
+
+.ng-invalid {
+    border: 2px solid red;
+}
+
+.ng-valid:focus {
+    border: 2px solid blue;
+}
+
+.ng-invalid:focus {
+    border: 2px solid red;
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+}
+
